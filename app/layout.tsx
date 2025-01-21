@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     emails: "hello@andcodex.com",
     phoneNumbers: "+880 1518-689136",
     siteName: "Andcodex IT Solutions",
-    images: "https://www.andcodex.com/opengraph-image.png",
+    images: ["https://www.andcodex.com/opengraph-image.png"],
   },
 };
 
