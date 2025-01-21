@@ -13,8 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Coming soon | Andcodex",
-  description: "Andcodex is a IT company that provides software solutions.",
+  title: "Andcodex IT Solutions",
+  description:
+    "Andcodex IT Solutions offers software solutions, web development, digital marketing, graphic design, and more to help businesses grow digitally.",
+  twitter: {
+    card: "summary_large_image",
+    site: "@andcodex",
+    creator: "@andcodex",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://andcodex.com",
+    emails: "hello@andcodex.com",
+    phoneNumbers: "+880 1518-689136",
+    siteName: "Andcodex IT Solutions",
+  },
 };
 
 export default function RootLayout({
